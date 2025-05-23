@@ -1,6 +1,6 @@
 module.exports = {
   e2e: {
-    baseUrl: 'https://www.automationexercise.com/',
+    baseUrl: process.env.CYPRESS_BASE_URL,
     env: {
       CYPRESS_USERNAME: process.env.CYPRESS_USERNAME,
       CYPRESS_PASSWORD: process.env.CYPRESS_PASSWORD,
