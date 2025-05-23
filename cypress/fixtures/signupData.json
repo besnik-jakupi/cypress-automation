@@ -1,0 +1,23 @@
+{
+  "name": "John Tester",
+  "email": "john.tester@yopmail.com",
+  "title": "Mr",
+  "password": "Test@1234",
+  "dateOfBirth": {
+    "day": "10",
+    "month": "May",
+    "year": "1990"
+  },
+  "newsletter": true,
+  "offers": true,
+  "firstName": "John",
+  "lastName": "Tester",
+  "company": "OpenAI",
+  "address1": "123 Main Street",
+  "address2": "Suite 456",
+  "country": "United States",
+  "state": "California",
+  "city": "San Francisco",
+  "zipcode": "94105",
+  "mobileNumber": "+1234567890"
+}
