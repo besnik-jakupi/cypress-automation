@@ -1,12 +1,12 @@
 name: Daily Cypress Test Run
 
-on:
-  schedule:
-    - cron: '0 8 * * *' # every day at 8:00 AM UTC
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+# on:
+ # schedule:
+    #- cron: '0 8 * * *' # every day at 8:00 AM UTC
+  # workflow_dispatch:
+  # push:
+   # branches:
+   #   - main
 
 jobs:
   cypress-run:
